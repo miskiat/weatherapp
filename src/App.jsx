@@ -4,11 +4,11 @@ function App() {
   return (
     <div>
       <header>
-        <h1>Ryan</h1>
+        <h1 className="name">Ryan</h1>
         <input
           className="input"
           placeholder="Enter city name... "
-          type="link"
+          type="name"
         />
       </header>
     </div>
