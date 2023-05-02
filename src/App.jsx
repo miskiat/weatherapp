@@ -11,6 +11,10 @@ function App() {
           type="name"
         />
       </header>
+      <img
+        className="sky"
+        src="/public/Image/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg"
+      />
     </div>
   );
 }
