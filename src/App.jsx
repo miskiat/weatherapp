@@ -14,6 +14,7 @@ function App() {
       <div className="sky">
         <img className="sun" src="/public/Image/sun-fill.svg" />
         <h1 className="number">13</h1>
+        <circle></circle>
       </div>
     </div>
   );
