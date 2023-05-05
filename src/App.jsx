@@ -12,7 +12,7 @@ function App() {
         />
       </header>
       <div className="sky">
-        mkognvhgvjhhhnjkfgregrbfherb fhbbjhbgguhikjknjkbjhv
+        <img className="sun" src="/public/Image/sun-fill.svg" />
       </div>
     </div>
   );

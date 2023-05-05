@@ -1,8 +1,16 @@
 .sky {
-  background: url(/public/Image/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg);
-  background-size: cover;
+  background: url(/public/Image/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg)
+    #8292fe;
+  /* background-size: cover; */
+  background-blend-mode: ;
   height: 20rem;
   width: 100%;
-  /* background-position: center; */
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+.sun {
+  width: 3rem;
+  height: 3rem;
+  margin: 4rem;
 }
