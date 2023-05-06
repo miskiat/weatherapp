@@ -1,3 +1,6 @@
+.name {
+  color: #8292fe;
+}
 .sky {
   background: url(/public/Image/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg)
     #8292fe;
@@ -8,6 +11,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.input {
+  height: 2rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
 }
 .sun {
   width: 3rem;
