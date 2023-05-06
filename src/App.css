@@ -24,10 +24,15 @@
   padding: 50px;
   background-color: #fff;
 }
+.place {
+  color: #8292fe;
+  font-size: 1.5rem;
+  margin-top: -3rem;
+}
 .right {
   display: flex;
   flex-direction: row;
-  color: rgb(255, 255, 255);
+  color: #8292fe;
   font-size: 1.5rem;
   margin-top: -3rem;
 }
