@@ -35,6 +35,7 @@
 }
 .location {
   display: flex;
+  flex-direction: ;
 }
 .place {
   color: #8292fe;
