@@ -33,6 +33,9 @@
   padding: 50px;
   background-color: #fff;
 }
+.location {
+  display: flex;
+}
 .place {
   color: #8292fe;
   font-size: 1.5rem;
