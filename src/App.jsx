@@ -29,6 +29,21 @@ function App() {
           <p>Humidity</p>
           <p>29%</p>
         </div>
+        <div>
+          <img />
+          <p>Uv Index</p>
+          <p>0 out of 10</p>
+        </div>
+        <div>
+          <img />
+          <p>Uv Index</p>
+          <p>0 out of 10</p>
+        </div>
+        <div>
+          <img />
+          <p>Uv Index</p>
+          <p>0 out of 10</p>
+        </div>
       </section>
     </div>
   );
