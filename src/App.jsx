@@ -23,6 +23,13 @@ function App() {
           </div>
         </div>
       </div>
+      <section>
+        <div>
+          <img />
+          <p>Humidity</p>
+          <p>29%</p>
+        </div>
+      </section>
     </div>
   );
 }
