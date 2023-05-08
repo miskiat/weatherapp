@@ -36,8 +36,8 @@ function App() {
         </div>
         <div>
           <img />
-          <p>Uv Index</p>
-          <p>0 out of 10</p>
+          <p>Sunset</p>
+          <p>7;50 pm</p>
         </div>
         <div>
           <img />
