@@ -23,7 +23,7 @@ function App() {
           </div>
         </div>
       </div>
-      <section>
+      <section className="section-one">
         <div>
           <img />
           <p>Humidity</p>
