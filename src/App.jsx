@@ -34,6 +34,7 @@ function App() {
           <p>Uv Index</p>
           <p>0 out of 10</p>
         </div>
+        <line>----</line>
         <div>
           <img />
           <p>Sunset</p>
@@ -41,8 +42,8 @@ function App() {
         </div>
         <div>
           <img />
-          <p>Uv Index</p>
-          <p>0 out of 10</p>
+          <p>Sunrise</p>
+          <p>6:35am</p>
         </div>
       </section>
     </div>
