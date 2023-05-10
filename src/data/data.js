@@ -1,21 +1,21 @@
-export const atmosphere = [
+export const atmospheres = [
   {
-    icon: "",
+    icon: "/",
     title: "Humidity",
     desc: "29%",
   },
   {
-    icon: "",
+    icon: "/",
     title: "Uv Index",
     desc: "0 out of 10",
   },
   {
-    icon: "",
+    icon: "/",
     title: "Sunset",
     desc: "7;50 pm",
   },
   {
-    icon: "",
+    icon: "/",
     title: "Sunrise",
     desc: "6:35am",
   },

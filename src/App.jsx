@@ -1,4 +1,6 @@
 import "./App.css";
+import Atmosphere from "./components/Atmosphere";
+import { atmospheres } from "./data/data";
 
 function App() {
   return (
@@ -23,29 +25,16 @@ function App() {
           </div>
         </div>
       </div>
-      <section className="section-one">
-        <div>
-          <img />
-          <p>Humidity</p>
-          <p>29%</p>
-        </div>
-        <div>
-          <img />
-          <p>Uv Index</p>
-          <p>0 out of 10</p>
-        </div>
-        <line>----</line>
-        <div>
-          <img />
-          <p>Sunset</p>
-          <p>7;50 pm</p>
-        </div>
-        <div>
-          <img />
-          <p>Sunrise</p>
-          <p>6:35am</p>
-        </div>
-      </section>
+      <div className="section-one">
+        {atmospheres.map((atmosphere, index) => (
+          <Atmosphere
+            key={index}
+            icon={atmosphere.icon}
+            title={atmosphere.title}
+            decs={atmosphere.desc}
+          />
+        ))}
+      </div>
     </div>
   );
 }

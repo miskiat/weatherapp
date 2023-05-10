@@ -1,7 +1,15 @@
 import React from "react";
 
-const Atmosphere = () => {
-  return <div>Atmosphere</div>;
+const Atmospheres = ({ icon, title, desc }) => {
+  return (
+    <div className="section-one">
+      <img src={`/Image${icon}`} />
+      <div>
+        <div>{title}</div>
+        <div>{desc}</div>
+      </div>
+    </div>
+  );
 };
 
-export default Atmosphere;
+export default Atmospheres;
