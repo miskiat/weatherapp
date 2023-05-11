@@ -31,7 +31,7 @@ function App() {
             key={index}
             icon={atmosphere.icon}
             title={atmosphere.title}
-            decs={atmosphere.desc}
+            desc={atmosphere.desc}
           />
         ))}
       </div>
