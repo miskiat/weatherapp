@@ -25,7 +25,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="section-one">
+      <div className="section">
         {atmospheres.map((atmosphere, index) => (
           <Atmosphere
             key={index}

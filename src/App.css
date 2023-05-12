@@ -49,8 +49,10 @@
   font-size: 1.5rem;
   margin-top: -3rem;
 }
-.section-one {
-  height: 20rem;
-  width: 10rem;
-  background-color: bisque;
+.section {
+  height: 15rem;
+  width: 20rem;
+  background-color: rgb(245, 242, 238);
+  border-radius: 0.5rem;
+  border: 1px solid grey;
 }
