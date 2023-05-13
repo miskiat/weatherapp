@@ -1,6 +1,6 @@
 export const atmospheres = [
   {
-    icon: "/",
+    icon: "/humidity/svg",
     title: "Humidity",
     desc: "29%",
   },
