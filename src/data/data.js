@@ -1,11 +1,11 @@
 export const atmospheres = [
   {
-    icon: "/humidity/svg",
+    icon: "/image/humidity.svg",
     title: "Humidity",
     desc: "29%",
   },
   {
-    icon: "/",
+    icon: "/image/uv-index.svg",
     title: "Uv Index",
     desc: "0 out of 10",
   },
