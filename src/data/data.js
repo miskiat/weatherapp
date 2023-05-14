@@ -10,12 +10,12 @@ export const atmospheres = [
     desc: "0 out of 10",
   },
   {
-    icon: "/",
+    icon: "/image/",
     title: "Sunset",
     desc: "7;50 pm",
   },
   {
-    icon: "/",
+    icon: "/image/sunrise.svg",
     title: "Sunrise",
     desc: "6:35am",
   },
