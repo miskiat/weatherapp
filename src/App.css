@@ -64,17 +64,25 @@
   width: 2rem;
 }
 .section-two {
-  height: 10rem;
+  height: 5rem;
   width: 20rem;
   background-color: blanchedalmond;
   border-radius: 0.5rem;
   border: 1px solid grey;
   margin-left: 4rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 .upper {
   display: flex;
   flex-direction: row;
   gap: 6.5rem;
   padding-left: 1rem;
+}
+.lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  margin-top: -1.5rem;
 }
