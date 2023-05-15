@@ -35,6 +35,16 @@ function App() {
           />
         ))}
       </div>
+      <div className="section-two">
+        <div className="upper">
+          <p>Monthly Rainfall</p>
+          <p>This Year</p>
+        </div>
+        <div className="lower">
+          <p>45mm</p>
+          <p>+17%</p>
+        </div>
+      </div>
     </div>
   );
 }
