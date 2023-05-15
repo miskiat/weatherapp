@@ -74,5 +74,7 @@
 }
 .upper {
   display: flex;
-  align-content: flex-end;
+  flex-direction: row;
+  gap: 6.5rem;
+  padding-left: 1rem;
 }
