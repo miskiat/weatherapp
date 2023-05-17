@@ -45,6 +45,15 @@ function App() {
           <p>+17%</p>
         </div>
       </div>
+      <div className="section-three">
+        <div>Temperature . Precipitation .Wind</div>
+
+        <div>
+          <p>MON</p>
+          <img />
+          <p>12</p>
+        </div>
+      </div>
     </div>
   );
 }
