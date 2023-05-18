@@ -52,6 +52,9 @@ function App() {
           <p>MON</p>
           <img />
           <p>12</p>
+          <p>TUE</p>
+          <img />
+          <p>13</p>
         </div>
       </div>
     </div>
