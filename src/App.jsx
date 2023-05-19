@@ -55,6 +55,15 @@ function App() {
           <p>TUE</p>
           <img />
           <p>13</p>
+          <p>WED</p>
+          <img />
+          <p>9</p>
+          <p>THU</p>
+          <img />
+          <p>8</p>
+          <p>FRI</p>
+          <img />
+          <p>7</p>
         </div>
       </div>
     </div>
