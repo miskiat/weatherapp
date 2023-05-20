@@ -53,10 +53,10 @@ function App() {
           <img src="/public/image/cloud-rain-bold-svgrepo-com.svg" />
           <p>12</p>
           <p>TUE</p>
-          <img />
+          <img src="/public/image/clouds-1274-svgrepo-com.svg" />
           <p>13</p>
           <p>WED</p>
-          <img />
+          <img src="/public/image/clouds-1277-svgrepo-com.svg" />
           <p>9</p>
           <p>THU</p>
           <img />
