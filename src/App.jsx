@@ -50,7 +50,7 @@ function App() {
 
         <div>
           <p>MON</p>
-          <img />
+          <img src="/public/image/cloud-rain-bold-svgrepo-com.svg" />
           <p>12</p>
           <p>TUE</p>
           <img />
