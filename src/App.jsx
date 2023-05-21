@@ -1,5 +1,6 @@
 import "./App.css";
 import Atmosphere from "./components/Atmosphere";
+import Sky from "./components/Sky";
 import { atmospheres } from "./data/data";
 
 function App() {
@@ -48,22 +49,18 @@ function App() {
       <div className="section-three">
         <div>Temperature . Precipitation .Wind</div>
 
-        <div>
-          <p>MON</p>
-          <img src="/public/image/cloud-rain-bold-svgrepo-com.svg" />
-          <p>12</p>
-          <p>TUE</p>
-          <img src="/public/image/clouds-1274-svgrepo-com.svg" />
-          <p>13</p>
-          <p>WED</p>
-          <img src="/public/image/clouds-1277-svgrepo-com.svg" />
-          <p>9</p>
-          <p>THU</p>
-          <img />
-          <p>8</p>
-          <p>FRI</p>
-          <img />
-          <p>7</p>
+        <div className="weather">
+          {Sky.map((sky, index)
+          =>(
+            <Sky
+            key={index}
+            icon={sky.icon}
+            title={sky.title} 
+            desc={sky.desc}
+            
+            />
+          ))
+        }   
         </div>
       </div>
     </div>
