@@ -5,7 +5,7 @@ export const atmospheres = [
     desc: "29%",
   },
   {
-    icon: "/image/uv-index.svg",
+    iconn: "/image/uv-index.svg",
     title: "Uv Index",
     desc: "0 out of 10",
   },
@@ -44,17 +44,17 @@ export const sky = [
   },
   {
     title: "FRI",
-    icon: "",
+    icon: "image/clouds-1277-svgrepo-com.svg",
     desc: "7",
   },
   {
     title: "SAT",
-    icon: "",
+    icon: "image/clouds-1277-svgrepo-com.svg",
     desc: "10",
   },
   {
     title: "SUN",
-    icon: "",
-    desc: "10",
+    icon: "image/clouds-1277-svgrepo-com.svg",
+    desc: "11",
   },
 ];

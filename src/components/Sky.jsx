@@ -1,13 +1,11 @@
 import React from "react";
 
-const Sky = ({ icon, title, desc }) => {
+const Sky = ({ title, iconn, desc }) => {
   return (
-    <div>
-      <img />
-      <div>
-        <div>{title}</div>
-        <div>{desc}</div>
-      </div>
+    <div className="weather">
+      <div>{title}</div>
+      <img className="" src="{icon}" />
+      <div>{desc}</div>
     </div>
   );
 };

@@ -49,13 +49,13 @@ function App() {
       <div className="section-three">
         <div>Temperature . Precipitation .Wind</div>
 
-        <div className="weather">
+        <div className="sky">
           {Sky.map((sky, index)
           =>(
             <Sky
             key={index}
-            icon={sky.icon}
-            title={sky.title} 
+            title={sky.title}
+            icon={sky.icon} 
             desc={sky.desc}
             
             />
