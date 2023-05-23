@@ -1,6 +1,6 @@
 import React from "react";
 
-const Sky = ({ title, iconn, desc }) => {
+const Skys = ({ title, icon, desc }) => {
   return (
     <div className="weather">
       <div>{title}</div>
@@ -10,4 +10,4 @@ const Sky = ({ title, iconn, desc }) => {
   );
 };
 
-export default Sky;
+export default Skys;

@@ -50,17 +50,14 @@ function App() {
         <div>Temperature . Precipitation .Wind</div>
 
         <div className="sky">
-          {Sky.map((sky, index)
-          =>(
+          {sky.map((sky, index) => (
             <Sky
-            key={index}
-            title={sky.title}
-            icon={sky.icon} 
-            desc={sky.desc}
-            
+              key={index}
+              title={sky.title}
+              icon={sky.icon}
+              desc={sky.desc}
             />
-          ))
-        }   
+          ))}
         </div>
       </div>
     </div>
