@@ -5,7 +5,6 @@
   background: url(/public/Image/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg)
     #8292fe;
   /* background-size: cover; */
-  background-blend-mode: ;
   height: 20rem;
   width: 100%;
   background-position: center;
@@ -86,4 +85,8 @@
   padding-left: 1rem;
   padding-right: 3rem;
   margin-top: -1.5rem;
+}
+.skys {
+  width: 2rem;
+  height: 2rem;
 }

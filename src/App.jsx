@@ -1,7 +1,7 @@
 import "./App.css";
 import Atmosphere from "./components/Atmosphere";
-import Sky from "./components/Sky";
-import { atmospheres } from "./data/data";
+import Skys from "./components/Sky";
+import { atmospheres, sky } from "./data/data";
 
 function App() {
   return (
@@ -49,9 +49,9 @@ function App() {
       <div className="section-three">
         <div>Temperature . Precipitation .Wind</div>
 
-        <div className="sky">
+        <div>
           {sky.map((sky, index) => (
-            <Sky
+            <Skys
               key={index}
               title={sky.title}
               icon={sky.icon}

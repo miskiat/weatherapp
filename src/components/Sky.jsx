@@ -4,7 +4,7 @@ const Skys = ({ title, icon, desc }) => {
   return (
     <div className="weather">
       <div>{title}</div>
-      <img className="" src="{icon}" />
+      <img className="skys" src={icon} />
       <div>{desc}</div>
     </div>
   );

@@ -5,7 +5,7 @@ export const atmospheres = [
     desc: "29%",
   },
   {
-    iconn: "/image/uv-index.svg",
+    icon: "/image/uv-index.svg",
     title: "Uv Index",
     desc: "0 out of 10",
   },
