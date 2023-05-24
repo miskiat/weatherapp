@@ -26,38 +26,43 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="section">
-        {atmospheres.map((atmosphere, index) => (
-          <Atmosphere
-            key={index}
-            icon={atmosphere.icon}
-            title={atmosphere.title}
-            desc={atmosphere.desc}
-          />
-        ))}
-      </div>
-      <div className="section-two">
-        <div className="upper">
-          <p>Monthly Rainfall</p>
-          <p>This Year</p>
-        </div>
-        <div className="lower">
-          <p>45mm</p>
-          <p>+17%</p>
-        </div>
-      </div>
-      <div className="section-three">
-        <div>Temperature . Precipitation .Wind</div>
-
+      <div className="temperature-readings">
         <div>
-          {sky.map((sky, index) => (
-            <Skys
-              key={index}
-              title={sky.title}
-              icon={sky.icon}
-              desc={sky.desc}
-            />
-          ))}
+          <div className="section">
+            {atmospheres.map((atmosphere, index) => (
+              <Atmosphere
+                key={index}
+                icon={atmosphere.icon}
+                title={atmosphere.title}
+                desc={atmosphere.desc}
+              />
+            ))}
+          </div>
+          <div className="section-two">
+            <div className="upper">
+              <p>Monthly Rainfall</p>
+              <p>This Year</p>
+            </div>
+            <div className="lower">
+              <p>45mm</p>
+              <p>+17%</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="section-three">
+          <div>Temperature . Precipitation .Wind</div>
+
+          <div>
+            {sky.map((sky, index) => (
+              <Skys
+                key={index}
+                title={sky.title}
+                icon={sky.icon}
+                desc={sky.desc}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -48,6 +48,9 @@
   font-size: 1.5rem;
   margin-top: -3rem;
 }
+.temperature-readings {
+  display: flex;
+}
 .section {
   height: 15rem;
   width: 30rem;
@@ -85,6 +88,12 @@
   padding-left: 1rem;
   padding-right: 3rem;
   margin-top: -1.5rem;
+}
+.section-three {
+  background-color: blueviolet;
+  height: 5rem;
+  width: 20rem;
+  /* margin-left: 10rem; */
 }
 .skys {
   width: 2rem;
