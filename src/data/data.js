@@ -1,23 +1,21 @@
 export const atmospheres = [
   {
-    icon: "/image/humidity.svg",
-    title: "Humidity",
-    desc: "29%",
+    icon1: "/image/humidity.svg",
+    title1: "Humidity",
+    desc1: "29%",
+
+    icon2: "/image/uv-index.svg",
+    title2: "Uv Index",
+    desc2: "0 out of 10",
   },
   {
-    icon: "/image/uv-index.svg",
-    title: "Uv Index",
-    desc: "0 out of 10",
-  },
-  {
-    icon: "/image/sunset.svg",
-    title: "Sunset",
-    desc: "7;50 pm",
-  },
-  {
-    icon: "/image/sunrise.svg",
-    title: "Sunrise",
-    desc: "6:35am",
+    icon1: "/image/sunset.svg",
+    title1: "Sunset",
+    desc1: "7;50 pm",
+
+    icon2: "/image/sunrise.svg",
+    title2: "Sunrise",
+    desc2: "6:35am",
   },
 ];
 

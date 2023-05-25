@@ -51,7 +51,9 @@ function App() {
         </div>
 
         <div className="section-three">
-          <div>Temperature . Precipitation .Wind</div>
+          <div className="weather-condition">
+            Temperature . Precipitation .Wind
+          </div>
 
           <div className="week-weather">
             {sky.map((sky, index) => (

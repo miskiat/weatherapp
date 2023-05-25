@@ -57,6 +57,7 @@
   background-color: rgb(245, 242, 238);
   border-radius: 0.5rem;
   border: 1px solid grey;
+  border-left: 1px solid grey;
   display: flex;
   flex-direction: column;
   margin-left: 4rem;
@@ -93,10 +94,14 @@
   height: 5rem;
   width: 20rem;
   margin-left: 10rem;
+  margin-top: 2rem;
 }
 .skys {
   width: 2rem;
   height: 2rem;
+}
+.weather-condition {
+  padding: 1rem 2rem;
 }
 .week-weather {
   display: flex;
