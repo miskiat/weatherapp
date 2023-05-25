@@ -91,10 +91,11 @@
   margin-top: -1.5rem;
 }
 .section-three {
-  height: 5rem;
+  height: 20rem;
   width: 20rem;
   margin-left: 10rem;
   margin-top: 2rem;
+  background-color: chocolate;
 }
 .skys {
   width: 2rem;
