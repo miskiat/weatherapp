@@ -52,7 +52,7 @@ export const sky = [
   },
   {
     title: "SUN",
-    icon: "image/clouds-1277-svgrepo-com.svg",
+    icon: "/image/clouds-1274-svgrepo-com.svg",
     desc: "11",
   },
 ];
