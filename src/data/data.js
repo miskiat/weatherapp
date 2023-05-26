@@ -37,7 +37,7 @@ export const sky = [
   },
   {
     title: "THU",
-    icon: "image/clouds-1277-svgrepo-com.svg",
+    icon: "/image/wind.svg",
     desc: "8",
   },
   {
@@ -47,7 +47,7 @@ export const sky = [
   },
   {
     title: "SAT",
-    icon: "/image/cloud-rain-bold-svgrepo-com.svg",
+    icon: "/image/cloud-lighting.svg",
     desc: "10",
   },
   {

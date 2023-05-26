@@ -34,7 +34,6 @@
 }
 .location {
   display: flex;
-  flex-direction: ;
 }
 .place {
   color: #8292fe;
@@ -95,7 +94,7 @@
   width: 43rem;
   margin-left: 10rem;
   margin-top: 2rem;
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 1rem;
   border: 1px solid grey;
 }
