@@ -22,7 +22,7 @@ export const atmospheres = [
 export const sky = [
   {
     title: "MON",
-    icon: "/image/cloud-rain-bold-svgrepo-com.svg",
+    icon: "image/clouds-1277-svgrepo-com.svg",
     desc: "12",
   },
   {
@@ -42,12 +42,12 @@ export const sky = [
   },
   {
     title: "FRI",
-    icon: "image/clouds-1277-svgrepo-com.svg",
+    icon: "/image/uv-index.svg",
     desc: "7",
   },
   {
     title: "SAT",
-    icon: "image/clouds-1277-svgrepo-com.svg",
+    icon: "/image/cloud-rain-bold-svgrepo-com.svg",
     desc: "10",
   },
   {
