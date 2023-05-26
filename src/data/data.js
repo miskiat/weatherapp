@@ -27,12 +27,12 @@ export const sky = [
   },
   {
     title: "TUE",
-    icon: "/image/cloud-rain-bold-svgrepo-com.svg",
+    icon: "/image/clouds-1274-svgrepo-com.svg",
     desc: "13",
   },
   {
     title: "WED",
-    icon: "/image/clouds-1274-svgrepo-com.svg",
+    icon: "/image/cloud-rain-bold-svgrepo-com.svg",
     desc: "9",
   },
   {
