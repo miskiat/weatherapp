@@ -6,7 +6,7 @@ import { atmospheres, sky } from "./data/data";
 function App() {
   return (
     <div>
-      <header>
+      <header className="header">
         <h1 className="name">Ryan</h1>
         <input
           className="input"

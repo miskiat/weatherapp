@@ -11,6 +11,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.header {
+  display: flex;
+  align-items: center;
+}
 .input {
   height: 2rem;
   width: 20rem;
