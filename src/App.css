@@ -75,9 +75,9 @@
 .section-two {
   height: 5rem;
   width: 20rem;
-  background-color: rgb(114, 182, 245);
+  background-color: rgb(175, 155, 240);
   border-radius: 0.5rem;
-  border: 1px solid grey;
+  border: 1px solid rgb(175, 155, 240);
   margin-left: 4rem;
   margin-top: 5rem;
   color: white;
