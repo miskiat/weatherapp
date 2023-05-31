@@ -52,6 +52,7 @@
   flex-direction: row;
   color: #8292fe;
   margin-top: -3rem;
+  margin-left: 77rem;
 }
 .temperature-readings {
   display: flex;
