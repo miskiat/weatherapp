@@ -29,12 +29,9 @@
   margin: 4rem;
 }
 .number {
-  margin-left: 4rem;
-  /* 
-  margin-top: 8rem; */
   font-size: 6rem;
-  color: #8292fe;
-  display: flex;
+  color: #121214;
+  padding-left: 4rem;
 }
 
 .location {
