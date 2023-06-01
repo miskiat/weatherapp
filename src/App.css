@@ -30,29 +30,24 @@
 }
 .number {
   margin-left: 4rem;
-  margin-top: -3rem;
+  /* 
+  margin-top: 8rem; */
   font-size: 6rem;
   color: #8292fe;
+  display: flex;
 }
-.container {
-  padding: 50px;
-  background-color: #fff;
-}
+
 .location {
   display: flex;
   padding-left: 4.5rem;
   font-size: 1.3rem;
-}
-.place {
-  color: #8292fe;
   margin-top: -3rem;
+  color: #8292fe;
 }
 
 .right {
-  display: flex;
   flex-direction: column;
-  color: #8292fe;
-  margin-top: -3rem;
+
   margin-left: 77rem;
 }
 .temperature-readings {
