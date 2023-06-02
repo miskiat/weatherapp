@@ -30,13 +30,13 @@
 }
 .number {
   font-size: 6rem;
-  color: #121214;
+  color: #8292fe;
 }
 .location {
   display: flex;
   padding-left: 4.5rem;
   font-size: 1.3rem;
-  /* margin-top: -3rem; */
+  margin-top: 4rem;
   color: #8292fe;
 }
 
