@@ -31,14 +31,12 @@
 .number {
   font-size: 6rem;
   color: #121214;
-  padding: 4rem;
 }
-
 .location {
   display: flex;
   padding-left: 4.5rem;
   font-size: 1.3rem;
-  margin-top: -3rem;
+  /* margin-top: -3rem; */
   color: #8292fe;
 }
 
