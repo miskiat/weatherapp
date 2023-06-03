@@ -18,7 +18,7 @@ function App() {
         <img className="sun" src="/public/Image/sun-fill.svg" />
 
         <span className="number">13</span>
-        <span className="number">o</span>
+        <span className="numberr">o</span>
 
         <div className="location">
           <div className="place">Ilorin,Kwara</div>

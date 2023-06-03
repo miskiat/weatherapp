@@ -32,6 +32,12 @@
   font-size: 6rem;
   color: #8292fe;
 }
+.numberr {
+  font-size: 3rem;
+  color: #8292fe;
+  padding-top: -4rem;
+  background-color: coral;
+}
 .location {
   display: flex;
   padding-left: 4.5rem;
