@@ -32,12 +32,7 @@ function App() {
         <div>
           <div className="section">
             {atmospheres.map((atmosphere, index) => (
-              <Atmosphere
-                key={index}
-                icon={atmosphere.icon}
-                title={atmosphere.title}
-                desc={atmosphere.desc}
-              />
+              <Atmosphere key={index} {...atmosphere} />
             ))}
           </div>
           <div className="section-two">

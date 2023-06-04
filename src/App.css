@@ -123,3 +123,7 @@
 .week-weather :first-child {
   border-left: none;
 }
+
+.atmosphere-container {
+  display: flex;
+}
