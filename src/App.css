@@ -32,6 +32,7 @@
 .number {
   font-size: 6rem;
   color: #8292fe;
+  padding-left: 4rem;
   margin: 0;
 }
 .location {
