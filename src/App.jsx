@@ -16,9 +16,10 @@ function App() {
       </header>
       <div className="sky">
         <img className="sun" src="/public/Image/sun-fill.svg" />
-
-        <span className="number">13</span>
-        <span className="numberr">o</span>
+        <p className="number">
+          13
+          <sup>o</sup>
+        </p>
 
         <div className="location">
           <div className="place">Ilorin,Kwara</div>
