@@ -71,12 +71,12 @@
   height: 5rem;
   width: 20rem;
 
-  background-color: linear-gradient(#8292fe);
+  background-color: #8292fe;
   border-radius: 0.5rem;
   border: 1px solid #8292fe;
   margin-left: 4rem;
   margin-top: 5rem;
-  /* color: white; */
+  color: white;
 }
 .upper {
   display: flex;
