@@ -13,6 +13,7 @@ function App() {
           placeholder="Enter city name... "
           type="name"
         />
+        <img src="/public/image/search.svg" />
       </header>
       <div className="sky">
         <img className="sun" src="/public/Image/sun-fill.svg" />
