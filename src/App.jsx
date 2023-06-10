@@ -8,12 +8,14 @@ function App() {
     <div>
       <header className="header">
         <h1 className="name">Ryan</h1>
-        <input
-          className="input"
-          placeholder="Enter city name... "
-          type="name"
-        />
-        <img className="serach-icon" src="/public/image/search.svg" />
+        <button>
+          <input
+            className="input"
+            placeholder="Enter city name... "
+            type="name"
+          />
+          <img className="search-icon" src="/public/image/search.svg" />
+        </button>
       </header>
       <div className="sky">
         <img className="sun" src="/public/Image/sun-fill.svg" />
