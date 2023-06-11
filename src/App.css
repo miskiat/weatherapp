@@ -22,7 +22,14 @@
   width: 20rem;
   border-radius: 0.5rem;
   border: 1px solid grey;
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.input :placeholder-shown {
+  border: none;
 }
 .search-icon {
   height: 1rem;
