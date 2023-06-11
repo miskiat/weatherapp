@@ -8,11 +8,10 @@ function App() {
     <div>
       <header className="header">
         <h1 className="name">Ryan</h1>
-
-        <button className="input">
-          <a /> Enter city name... <a />
+        <div>
+          <input placeholder="Enter city name... " type="name" />
           <img className="search-icon" src="/public/image/search.svg" />
-        </button>
+        </div>
       </header>
       <div className="sky">
         <img className="sun" src="/public/Image/sun-fill.svg" />
