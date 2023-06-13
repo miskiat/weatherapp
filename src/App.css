@@ -17,7 +17,7 @@
   justify-content: space-between;
   padding: 0rem 2rem;
 }
-.input {
+.inputt {
   height: 2rem;
   width: 20rem;
   border-radius: 0.5rem;
@@ -27,12 +27,11 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem;
+  /* border: none; */
 }
-.input :placeholder-shown {
+input {
   border: none;
-}
-.input :fo {
-  border: none;
+  outline: none;
 }
 
 .search-icon {
