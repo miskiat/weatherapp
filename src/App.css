@@ -31,6 +31,10 @@
 .input :placeholder-shown {
   border: none;
 }
+.input :fo {
+  border: none;
+}
+
 .search-icon {
   height: 1rem;
   width: 1rem;
