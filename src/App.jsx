@@ -9,7 +9,7 @@ function App() {
       <header className="header">
         <h1 className="name">Ryan</h1>
         <div className="inputt">
-          <input placeholder="Enter city name..." type="name" />
+          <input placeholder="Enter city name...." type="name" />
           <img className="search-icon" src="/public/image/search.svg" />
         </div>
       </header>
