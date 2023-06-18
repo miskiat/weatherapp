@@ -37,7 +37,7 @@ function App() {
           </div>
           <div className="section-two">
             <div className="upper">
-              <p>Monthlyrr Rainfall</p>
+              <p>Monthly Rainfall</p>
               <p>This Year</p>
             </div>
             <div className="lower">
