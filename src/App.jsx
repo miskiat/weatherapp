@@ -5,7 +5,7 @@ import { atmospheres, sky } from "./data/data";
 
 function App() {
   return (
-    <div>
+    <div className="wrapper">
       <header className="header">
         <h1 className="name">Ilorin</h1>
         <div className="inputt">

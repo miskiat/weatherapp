@@ -6,7 +6,7 @@
     #8292fe;
   /* background-size: cover; */
   height: 20rem;
-  width: 100%;
+  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,12 +22,11 @@
   width: 20rem;
   border-radius: 0.5rem;
   border: 1px solid grey;
-  /* background-color: cornflowerblue; */
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem;
-  /* border: none; */
 }
 input {
   border: none;
@@ -173,13 +172,20 @@ input {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
   .location {
-    margin-right: 0;
     flex-direction: column;
+    justify-content: start;
+  }
+
+  .inputt {
+    width: 100%;
+    flex-grow: 1;
   }
   .header {
-    flex-direction: column;
+    gap: 2rem;
   }
-  .inputt {
-    width: 10rem;
+}
+@media (max-width: 1024px) {
+  .temperature-readings {
+    flex-direction: column;
   }
 }
