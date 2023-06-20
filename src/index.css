@@ -7,3 +7,8 @@ body {
   padding: 0;
   margin: 0;
 }
+@media (max-width: 640px) {
+  :root {
+    font-size: 12px;
+  }
+}
