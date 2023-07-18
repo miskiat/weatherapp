@@ -7,7 +7,8 @@ import { atmospheres, sky } from "./data/data";
 
 function App() {
   const [city, setCity] = useState("");
-  const url = `https://pro.openweathermap.org/data/2.5/forecast/hourly?q=${city}&appid=cfbd3b28c4042d6276d991aa2d46973e`;
+  const url = `https://pro.openweathermap.org/data/2.5/forecast/hourly?q=${city}&appid=ea0882e898c0bb2a7027b57e21054421
+`;
   // console.log(city);
   const handleSubmit = (e) => {
     e.preventDefault();
