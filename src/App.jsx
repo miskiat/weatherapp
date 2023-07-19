@@ -7,8 +7,7 @@ import { atmospheres, sky } from "./data/data";
 
 function App() {
   const [city, setCity] = useState("");
-  const url = `https://pro.openweathermap.org/data/2.5/forecast/hourly?q=${city}&appid=ea0882e898c0bb2a7027b57e21054421
-`;
+  const url = `https://pro.openweathermap.org/data/2.5/forecast/hourly?q=${city}&appid=ea0882e898c0bb2a7027b57e21054421`;
   // console.log(city);
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -56,7 +55,7 @@ function App() {
           <div className="section-two">
             <div className="upper">
               <p>Monthly Rainfall</p>
-              <p>This Yearrrrr</p>
+              <p>This Year</p>
             </div>
             <div className="lower">
               <p>45mm</p>
