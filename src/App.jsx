@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="wrapper">
       <header className="header">
-        <h1 className="name">Ilorin</h1>
+        <h1 className="name">Ikeja</h1>
         <div className="inputt">
           <form onSubmit={handleSubmit}>
             <input
@@ -33,12 +33,12 @@ function App() {
       <div className="sky">
         <img className="sun" src="/public/Image/sun-fill.svg" />
         <p className="number">
-          13
+          14
           <sup>o</sup>
         </p>
 
         <div className="location">
-          <div className="place">Ilorin,Kwara</div>
+          <div className="place">Ikeja,Lagos</div>
           <div className="right">
             <div className="time">7:00 PM</div>
             <div>Sunset time, Monday</div>
