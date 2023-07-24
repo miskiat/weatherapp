@@ -40,7 +40,7 @@ function App() {
         <div className="location">
           <div className="place">Ikeja,Lagos</div>
           <div className="right">
-            <div className="time">7:00 PM</div>
+            <div className="time">8:00 AM</div>
             <div>Sunset time, Monday</div>
           </div>
         </div>
