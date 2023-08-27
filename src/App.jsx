@@ -1,4 +1,5 @@
 import axios from "axios";
+import { useEffect } from "react";
 import { useState } from "react";
 import "./App.css";
 import Atmosphere from "./components/Atmosphere";
@@ -7,18 +8,19 @@ import { atmospheres, sky } from "./data/data";
 
 function App() {
   const [city, setCity] = useState("");
-  const url = `https://pro.openweathermap.org/data/2.5/forecast/hourly?q=${city}&appid=ea0882e898c0bb2a7027b57e21054421`;
+  const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=b52ebf3479c0ba50f0f006fd016ff13e&units=metric`;
   // console.log(city);
-  const handleSubmit = (e) => {
+  const fetchWeather = (e) => {
     e.preventDefault();
     axios.get(url).then((res) => console.log(res));
   };
+
   return (
     <div className="wrapper">
       <header className="header">
         <h1 className="name">Ikeja</h1>
         <div className="inputt">
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={fetchWeather}>
             <input
               placeholder="Enter city name...."
               type="name"
