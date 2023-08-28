@@ -37,8 +37,7 @@ input {
   width: 1rem;
 }
 .sun {
-  width: 3rem;
-  height: 3rem;
+  height: 4rem;
   margin: 4rem;
   margin-bottom: 0;
 }
@@ -51,10 +50,11 @@ input {
 .location {
   display: flex;
   padding-left: 4.5rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   justify-content: space-between;
   margin-right: 5rem;
   color: #8292fe;
+  font-weight: 700;
 }
 
 .right {

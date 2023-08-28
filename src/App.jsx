@@ -7,18 +7,49 @@ import Skys from "./components/Sky";
 import { atmospheres, sky } from "./data/data";
 
 function App() {
-  const [city, setCity] = useState("");
-  const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=b52ebf3479c0ba50f0f006fd016ff13e&units=metric`;
+  const [city, setCity] = useState("Ilorin");
+  const [data, setData] = useState();
+  const atmospheres = [
+    {
+      icon1: "/image/humidity.svg",
+      title1: "Humidity",
+      desc1: data?.current?.humidity + "%",
+
+      icon2: "/image/uv-index.svg",
+      title2: "Uv Index",
+      desc2: data?.current?.uv_index + " out of 10",
+    },
+    {
+      icon1: "/image/sunset.svg",
+      title1: "Sunset",
+      desc1: "7;50 pm",
+
+      icon2: "/image/sunrise.svg",
+      title2: "Sunrise",
+      desc2: "6:35am",
+    },
+  ];
+  const key = "a13b33931f1fea30c1c867c34d203957";
+  const url = `http://api.weatherstack.com/current?access_key=${key}&query=${city}`;
   // console.log(city);
   const fetchWeather = (e) => {
     e.preventDefault();
-    axios.get(url).then((res) => console.log(res));
+    axios.get(url).then((res) => {
+      // console.log(res.data);
+      setData(res.data);
+    });
   };
+  console.log(data);
+  useEffect(() => {
+    axios.get(url).then((res) => {
+      setData(res.data);
+    });
+  }, []);
 
   return (
     <div className="wrapper">
       <header className="header">
-        <h1 className="name">Ikeja</h1>
+        <h1 className="name">{data?.location?.name}</h1>
         <div className="inputt">
           <form onSubmit={fetchWeather}>
             <input
@@ -33,17 +64,19 @@ function App() {
         </div>
       </header>
       <div className="sky">
-        <img className="sun" src="/public/Image/sun-fill.svg" />
+        <img className="sun" src={data?.current?.weather_icons[0]} />
         <p className="number">
-          14
+          {data?.current?.temperature}
           <sup>o</sup>
         </p>
 
         <div className="location">
-          <div className="place">Ikeja,Lagos</div>
+          <div className="place">
+            {data?.location?.name},{data?.location?.region}
+          </div>
           <div className="right">
-            <div className="time">8:00 AM</div>
-            <div>Sunset time, Monday</div>
+            <div className="time">{data?.location?.localtime}</div>
+            <div>Sunset time, Monday{}</div>
           </div>
         </div>
       </div>
